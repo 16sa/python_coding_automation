@@ -18,5 +18,4 @@ def create_bucket(bucket_name, region=None):
         logging.error(e)
         return False
     return True
-
-create_bucket("singamheydevops","us-west-1")
+create_bucket("test123-devops-bucket-2025","eu-west-3")

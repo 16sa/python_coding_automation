@@ -17,4 +17,4 @@ def upload_file(file_name, bucket, object_name=None):
         return False
     return True
 
-upload_file("/Users/praveensingampalli/Documents/MIT.pptx","singamheydevops")
+upload_file("C:/Users/ASUS/Documents/test.txt","test123-devops-bucket-2025")
