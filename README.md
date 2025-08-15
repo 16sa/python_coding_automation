@@ -43,3 +43,70 @@ Step 13 - Create an S3 bucket
 Step 14 - Upload file to an S3 bucket
 
 /c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe upload_s3.py
+
+=================================
+
+Real time Python Automations
+
+Step 1 - Go to Python_automation folder in github and run the Compare_list.py
+
+/c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe Compare_list.py
+
+Step 2 - Install the required Python Modules
+
+pip install requests
+
+requests is a library for making HTTP requests in a much simpler and more intuitive way than Python's built-in modules. It's widely used for tasks like interacting with web APIs and downloading web content.
+
+Step 3 - Go to Python_automation folder in github and run the Endpoint_Hit.py
+
+/c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe Endpoint_Hit.py
+
+Step 4 - Go to Python_automation folder in github and run the List_with_sort.py
+
+/c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe List_with_sort.py
+
+Step 5 - Run the TEXT TO SPEECH CONVERTER python script
+
+***Install the libraries first in the local:
+
+pip install PyPDF2
+pip install pyttsx3
+
+PyPDF2 is a free and open-source pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
+
+pyttsx3 is a text-to-speech conversion library in Python
+
+/c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe SPEECH.py
+
+The above script will read the dummypdf.pdf which is there in folder
+
+Step 6 - Run the OTP / PASSWORD Generator python script
+
+/c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe OTP_VERIFICATION.py
+
+*** Install the libraries first in the local:
+
+Pyperclip is a cross-platform Python module for copy and paste clipboard functions
+
+pip install pyperclip 
+
+curl https://files.pythonhosted.org/packages/a7/2c/4c64579f847bd5d539803c8b909e54ba087a79d01bb3aba433a95879a6c5/pyperclip-1.8.2.tar.gz > pyperclip.tar.gz
+
+tar -xzvf pyperclip.tar.gz
+
+cd pyperclip-1.8.2
+
+/c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe -m pip install setuptools
+
+/c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe setup.py install
+
+/c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe PASSWORD_GENERATOR.py
+
+
+
+
+
+
+
+
