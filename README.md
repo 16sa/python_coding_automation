@@ -40,6 +40,6 @@ Step 13 - Create an S3 bucket
 
 /c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe S3.py
 
-Step 13 - Upload file to an S3 bucket
+Step 14 - Upload file to an S3 bucket
 
 /c/Users/ASUS/AppData/Local/Programs/Python/Python313/python.exe upload_s3.py
